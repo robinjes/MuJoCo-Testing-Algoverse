@@ -21,7 +21,7 @@ def generate_code(prompt, max_length=300, temperature=0.2):
     
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-prompt = "Write a Python function that takes a list of numbers and returns the sum of all even numbers."
+prompt = "physics prompt TBD"
 generated_code = generate_code(prompt)
 print(generated_code)
 
